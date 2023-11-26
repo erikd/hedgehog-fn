@@ -45,6 +45,6 @@ executable example
     buildable:         False
   hs-source-dirs:      example
   build-depends:       base
-                     , hedgehog
+                     , hedgehog > 1.0 && < 1.2
                      , hedgehog-fn
   default-language:    Haskell2010
